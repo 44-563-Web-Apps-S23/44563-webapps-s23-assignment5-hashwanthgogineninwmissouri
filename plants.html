@@ -1,170 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Excersice</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
-    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-</head>
-<body>
+  <head>
+    <title>Bootstrap Excersice</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </head>
+  <body>
     <h1>Plants by Hashwanth Gogineni</h1>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
       <a class="navbar-brand" href="plants.html">Interesting Plants</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="basic.html">Basic Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="advanced.html">Advanced Link</a>
-                </li>  
-          </ul>
-          </div>
-          </nav>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="basic.html">Basic Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="advanced.html">Advanced Link</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-2">G</div>   
-            <div class="col-sm-2">O</div>  
-            <div class="col-sm-2">G</div>  
-            <div class="col-sm-2">I</div>  
-            <div class="col-sm-2">N</div>  
-            <div class="col-sm-2">E</div>  
-        </div>
-        <div class="row">
-            <div class="col-md">Gladiolus</div>   
-            <div class="col-md">OEMLERIA</div>  
-            <div class="col-md">Globeflower</div>  
-            <div class="col-md">ILLICIUM</div>  
-            <div class="col-md">Nemesia</div>  
-            <div class="col-md">Edelweiss</div> 
-        </div>
+      <div class="row">
+        <div class="col-sm-2">G</div>
+        <div class="col-sm-2">O</div>
+        <div class="col-sm-2">G</div>
+        <div class="col-sm-2">I</div>
+        <div class="col-sm-2">N</div>
+        <div class="col-sm-2">E</div>
+      </div>
+      <div class="row">
+        <div class="col-md">Gladiolus</div>
+        <div class="col-md">OEMLERIA</div>
+        <div class="col-md">Globeflower</div>
+        <div class="col-md">ILLICIUM</div>
+        <div class="col-md">Nemesia</div>
+        <div class="col-md">Edelweiss</div>
+      </div>
     </div>
     <br>
-    <p>
-        The row with plant names is displayed vertically when we progressively zoom the screen. 
-        Since we used col-sm(width of the screen is equal to or greater than 576px) & col-md(width of the screen equal to or greater than 768px) 
-        and due to the pixel difference the row with "col-md" class breaks first.
-    </p>
+    <p> The row with plant names is displayed vertically when we progressively zoom the screen. Since we used col-sm(width of the screen is equal to or greater than 576px) & col-md(width of the screen equal to or greater than 768px) and due to the pixel difference the row with "col-md" class breaks first. </p>
     <div class="container">
-      <img class="img-fluid" src="gladiolus.jpg" height="325px" width="325px"/>
-      <img class="img-fluid" src="oemleria.jpg" height="325px" width="325px"/>
-      <img class="img-fluid" src="globeflower.jpg" height="325px" width="325px"/>
-      
+      <img class="img-fluid" src="gladiolus.jpg" height="325px" width="325px" />
+      <img class="img-fluid" src="oemleria.jpg" height="325px" width="325px" />
+      <img class="img-fluid" src="globeflower.jpg" height="325px" width="325px" />
     </div>
-      
     <div class="container">
-      <img class="img-thumbnail" src="gladiolus.jpg" height="325px" width="325px"/>
-      <img class="img-thumbnail" src="oemleria.jpg" height="325px" width="325px"/>
-      <img class="img-thumbnail" src="globeflower.jpg" height="325px" width="325px"/>
+      <img class="img-thumbnail" src="gladiolus.jpg" height="325px" width="325px" />
+      <img class="img-thumbnail" src="oemleria.jpg" height="325px" width="325px" />
+      <img class="img-thumbnail" src="globeflower.jpg" height="325px" width="325px" />
     </div>
-  </div>
-
-  <table class="table table-success table-striped table-hover" style="border: solid;">
-    <caption style="color:#0e854f;">List of plants, mountains and lakes</caption>
-    <thead compact="compact">
-    <tr>
-      <th scope="col">Letter</th>
-      <th scope="col">Plant</th>
-      <th scope="col">Mountain</th>
-      <th scope="col">Lake</th>
-    </tr>
-  </thead>
-    <tbody>   
-      <tr scope="row">
-        <td> G </td>
-        <td> Gladiolus </td>
-        <td> Galeras </td>
-        <td> Galstas </td>
-      </tr>
-      <tr scope="row">
-        <td> O </td>
-        <td> Oemleria</td>
-        <td> Organ Pipes </td>
-        <td> Okanagan </td>
-      </tr>
-      <tr scope="row">
-        <td> G </td>
-        <td> Globeflower </td>
-        <td> Galwey </td>
-        <td> Garda </td>
-      </tr>
-      <tr scope="row">
-        <td> I </td>
-        <td> Illicium </td>
-        <td> Ismoil somoni peak </td>
-        <td> Iliamna Lake </td>
-      </tr>
-      <tr scope="row">
-        <td> N </td>
-        <td> Nemesia </td>
-        <td> Namamsan </td>
-        <td> Northwood Lake </td>
-      </tr>
-      <tr scope="row">
-        <td> E </td>
-        <td> Edelweiss </td>
-        <td> Everest </td>
-        <td> Ennerdale </td>
-      </tr>
-    </tbody>
+    </div>
+    <table class="table table-success table-striped table-hover" style="border: solid;">
+      <caption style="color:#0e854f;">List of plants, mountains and lakes</caption>
+      <thead compact="compact">
+        <tr>
+          <th scope="col">Letter</th>
+          <th scope="col">Plant</th>
+          <th scope="col">Mountain</th>
+          <th scope="col">Lake</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr scope="row">
+          <td> G </td>
+          <td> Gladiolus </td>
+          <td> Galeras </td>
+          <td> Galstas </td>
+        </tr>
+        <tr scope="row">
+          <td> O </td>
+          <td> Oemleria</td>
+          <td> Organ Pipes </td>
+          <td> Okanagan </td>
+        </tr>
+        <tr scope="row">
+          <td> G </td>
+          <td> Globeflower </td>
+          <td> Galwey </td>
+          <td> Garda </td>
+        </tr>
+        <tr scope="row">
+          <td> I </td>
+          <td> Illicium </td>
+          <td> Ismoil somoni peak </td>
+          <td> Iliamna Lake </td>
+        </tr>
+        <tr scope="row">
+          <td> N </td>
+          <td> Nemesia </td>
+          <td> Namamsan </td>
+          <td> Northwood Lake </td>
+        </tr>
+        <tr scope="row">
+          <td> E </td>
+          <td> Edelweiss </td>
+          <td> Everest </td>
+          <td> Ennerdale </td>
+        </tr>
+      </tbody>
     </table>
-  </div>
-  <label for="floatingSelectGrid">Buttons</label>
-  <br>
-      <button type="button" class="btn">G</button>
-      <button type="button" class="btn">O</button>
-      <button type="button" class="btn">G</button>
-      <button type="button" class="btn">I</button>
-      <button type="button" class="btn">N</button>
-      <button type="button" class="btn">E</button>
-  <br>
-  <label for="floatingSelectGrid">Button Group</label>
-  <br>
-  <div class="btn-toolbar" role="group" aria-label="Basic example">
+    </div>
+    <label for="floatingSelectGrid">Buttons</label>
+    <br>
+    <button type="button" class="btn">G</button>
+    <button type="button" class="btn">O</button>
+    <button type="button" class="btn">G</button>
+    <button type="button" class="btn">I</button>
+    <button type="button" class="btn">N</button>
+    <button type="button" class="btn">E</button>
+    <br>
+    <label for="floatingSelectGrid">Button Group</label>
+    <br>
+    <div class="btn-toolbar" role="group" aria-label="Basic example">
       <button type="button" class="btn btn-success">G</button>
       <button type="button" class="btn btn-success">O</button>
       <button type="button" class="btn btn-success">G</button>
       <button type="button" class="btn btn-warning">I</button>
       <button type="button" class="btn btn-warning">N</button>
       <button type="button" class="btn btn-danger">E</button>
-  </div>
-  <br>
-  <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown button
-    </button>
+    </div>
+    <br>
+    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown button </button>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="basic.html">Basic</a></li>
-      <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
+      <li>
+        <a class="dropdown-item" href="basic.html">Basic</a>
+      </li>
+      <li>
+        <a class="dropdown-item" href="advanced.html">Advanced</a>
+      </li>
     </ul>
-  <br>
-  <br>
-  <form>
-  <div class="mb-3 form-group">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-  </div>
-  <div class="mb-3 form-group">
-    <label for="exampleInputPlant" class="form-label">Plant</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your plant">
-  </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-  <br>
-  <br>
-  
-</body>
+    <br>
+    <br>
+    <form>
+      <div class="mb-3 form-group">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3 form-group">
+        <label for="exampleInputPlant" class="form-label">Plant</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your plant">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    <br>
+    <div class="container">
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img src="gladiolus.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gladiolus</h5>
+              <p class="card-text h-100">Part of the iris family (Iridaceae) and commonly known as “glads,” these lovely flowering plants are available in a multitude of colors and sizes. Gladioli typically reach between 2 and 5 feet in height!</p>
+              <button class="btn btn-primary" onclick="location.href='https://www.almanac.com/plant/gladiolus'">More about gladiolus</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img src="oemleria.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Oemleria</h5>
+              <p class="card-text h-100">Oemleria cerasiformis, a shrub commonly known as osoberry or Indian plum, is the sole species in genus Oemleria. Native to the Pacific coast and ranges of North America.</p>
+              <button class="btn btn-primary" onclick="location.href='https://en.wikipedia.org/wiki/Oemleria'">More about Oemleria</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img src="globeflower.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Globeflower</h5>
+              <p class="card-text h-100">Like buttercups on steroids, globeflowers are stunning massed beside lakes, ponds, and streams. Elsewhere, they are perfectly suited to rain gardens and boggy areas, and they make a good showing.</p>
+              <button class="btn btn-primary" onclick="location.href='https://www.bhg.com/gardening/plant-dictionary/perennial/globeflower/'">More about Globeflower</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </body>
 </html>
